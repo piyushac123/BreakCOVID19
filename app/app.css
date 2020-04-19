@@ -1,0 +1,61 @@
+.heading{
+    margin-left:15px;
+    margin-top:50px;
+    font-family:'Aclonica';
+    font-variant:small-caps;
+    font-size: 50px;
+    font-weight: bold;
+}
+.formclass
+{
+	padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.formclass h1
+{
+	padding: 5px;
+	text-align: center;
+	font-size: 35px;
+}
+.formclass h4, .smallHead
+{
+	padding: 10px;
+	font-size: 15px;
+    font-weight: bold;
+    
+}
+.formclass input[type=text],input[type=email], input[type=password],.hackathon-details {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.formclass input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.formclass button, .register {
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-right: 40px;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+.formclass button:hover {
+  opacity:1;
+}
+.formclass a
+{
+	font-size: 18px;
+	margin-top:30px; 
+	margin-left: 20px;
+
+}

@@ -1,0 +1,174 @@
+*{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+html,body 
+{
+	height: 100%;
+
+}
+.container
+{
+	width: 100%;
+	margin: 0px 0px;
+}
+.headerback
+{
+	background-color: #000;
+	height: 90px;
+	
+}
+.logoimage
+{
+	float: left;
+	width: 120px;
+	height: auto;
+	margin-top:20px; 
+}
+.webtitle
+{
+	font-size: 50px;
+	color: #fff;
+	float: left;
+	margin-top: 16px;
+	margin-left: 160px;
+
+}
+.navigation
+{
+	float: right;
+	margin-right: 30px;
+
+
+}
+.navigation ul li
+{
+	margin-top: 20px;
+	display: inline-block;
+	float: left;
+	padding: 15px 20px;
+	
+}
+.navigation ul li a 
+{
+	color: #fff;
+	padding: 10px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	transition:0.6s ease;
+}
+.navigation ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+.navigation ul li.active a
+{
+	background-color: #fff;
+	color: #000;
+}
+
+.sectionclass
+{
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.formclass
+{
+	padding: 10px;
+}
+.formclass h1
+{
+	padding: 5px;
+	text-align: center;
+	font-size: 35px;
+}
+.formclass h4
+{
+	padding: 10px;
+	font-size: 15px;
+}
+.formclass input[type=text],input[type=email], input[type=password], input[type=date]{
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.formclass input[type=text]:focus,input[type=email]:focus, input[type=password]:focus, input[type=date]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.formclass button {
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-right: 40px;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+.formclass button:hover {
+  opacity:1;
+}
+.formclass a
+{
+	font-size: 18px;
+	margin-top:30px; 
+	margin-left: 20px;
+
+}
+.footerback
+{
+	background-color: #000;
+	height: 90px;
+	position: relative;
+	margin-top: -0px;
+	clear: both;
+
+	
+}
+.footernav
+{
+	float: left;
+	margin-right: 30px;
+}
+.footernav ul li
+{
+	margin-top: 20px;
+	display: inline-block;
+	float: left;
+	padding: 15px 20px;
+	
+}
+.footernav ul li a 
+{
+	color: #fff;
+	padding: 10px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	transition:0.6s ease;
+}
+.footernav ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+.footerback h5
+{
+	color: #fff;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	font-size: 20px;
+
+
+}

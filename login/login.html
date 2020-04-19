@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="login.js"></script>
+    </head>
+    <body>
+    <div style="z-index: 10;top:0;left: 0;position: fixed;margin-top: 20px;margin-left: 20px;">
+        <a href="../home/home.html"><button style='font-size:24px'>Back to Home <i class='fa fa-angle-double-left'></i></button></a>
+    </div>
+	<h1 style="text-align: center;margin-top: 20px;"> LOGIN FORM </h1> 
+	<!--<center>-->          
+	<section class="sectionclass">
+        <form action="login.php" method="POST" style="border:1px solid #000; size:100px;" name="RegForm">
+            <div class="formclass">
+            <h1>Sign In</h1>
+            <hr>
+            <h4>Enter Email</h4>
+            <input type="email" placeholder="Enter Email" style="width: 80%;margin-top: 10px; " name="Email">
+            <br>
+            <h4>Enter Password</h4>
+            <input type="password" placeholder="Enter Password" name="Password" style="margin-top: 10px;">
+            <br>
+                <div class="clearfix">
+                <button type="reset" class="cancelbtn">Reset</button>
+                <button type="submit" class="signupbtn" name="signin">Sign In</button>
+            </div>
+            <br>
+            <a href="forgotPassword.html">Forgot password?</a>
+            <a href="../signup/signup.html">Create account here.</a>
+            </div>
+        </form>
+    </section>
+        <!--</center>-->
+    </body>
+</html>

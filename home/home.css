@@ -1,0 +1,53 @@
+body{
+   overflow-x: hidden; 
+}
+.backimage-class{
+    position:absolute;
+    z-index: -1;
+    left: 20%;
+    top: 15%;
+}
+.back-color{
+    position:absolute;
+    height: 500px;
+    width:  1920px;
+}
+.position-set{
+    position:absolute;
+    bottom:0;
+}
+.hr1{
+    position:absolute;
+    bottom:0;
+    height: 2px;
+    width:100%;
+    border:1px solid #DEAB75;
+    background-color:#DEAB75;
+}
+.heading{
+    margin-left:15px;
+    margin-top:50px;
+    font-family:'Aclonica';
+    font-variant:small-caps;
+    font-size: 50px;
+    font-weight: bold;
+}
+.menu-bar1{
+    margin-top:220px;
+    text-align: right;
+}
+.pills-features{
+    color:turquoise;
+    border:1px solid white;
+    font-size: 20px;
+    padding:10px;
+    margin-left:50px;
+}
+
+.blog-cards{
+    height: 300px;
+    width: 300px;
+    border:1px solid #DEAB75;
+    margin-left: 350px;
+    margin-top: 30px;
+}

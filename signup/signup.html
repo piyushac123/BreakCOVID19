@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Application</title>
+        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="signup.js"></script>
+    </head>
+    <body>
+    <div style="z-index: 10;top:0;left: 0;position: fixed;margin-top: 20px;margin-left: 20px;">
+        <a href="../home/home.html"><button style='font-size:24px'>Back to Home <i class='fa fa-angle-double-left'></i></button></a>
+    </div>
+        <section class="sectionclass">
+            <form id="myform" method="post" action="signup.php" onSubmit="return validateForm()" style="border:1px solid #000" size:100px>
+                <div class="formclass">
+                    <h1>Sign Up</h1>
+                    <hr>
+                    <h4>Enter First Name* :</h4>
+                    <input type="text" placeholder="First Name" name="fname" id="fname" required>
+                    <h4>Enter Middle Name* :</h4>
+                    <input type="text" placeholder="Middle Name" name="mname" id="mname" required>
+                    <h4>Enter Last Name* :</h4>
+                    <input type="text" placeholder="Last Name" id="lname" name="lname" required>
+                    <h4>Enter Email* :</h4>
+                    <input type="text" placeholder="Email" id="email" name="email" required>
+                    <h4>Enter Date of Birth* :</h4>
+                    <input type="date" placeholder="Date of Birth" id="dob" name="dob" required>
+                        <h4>Enter Phone Number* :</h4>
+                    <input type="text" placeholder="Phone number" id="phone" name="phone" required>
+                    <h4>Enter Password* :</h4>
+                    <input type="password" placeholder="Password" id="pass" name="pass" required>
+                    <br>
+                    <h4>Confirm Password* :</h4>
+                    <input type="password" placeholder="Password" id="cpass" name="cpass" required>
+                    <br>
+                        <div class="clearfix">
+                        <button type="reset" class="cancelbtn">Reset</button>
+                        <button type="submit" class="signupbtn" name="signup">Register</button>
+                    </div>
+                    <br>
+                    <a href="../login/login.html">Already sign up?Login in here.</a>
+                </div>
+            </form>
+
+        </section>
+    </body>
+</html>
